@@ -24,7 +24,7 @@ Then navigate to the new directory (e.g. with `cd Auto-Toggle-Howdy`).
 Run the installer with `./install.sh`.
 Enter the following line in your terminal to enable Howdy after initial login:
 ```
-sudo /usr/local/bin/enable-howdy.sh >> ~/.bash_profile
+echo "sudo /usr/local/bin/enable-howdy.sh" >> ~/.bash_profile
 ```
 You may also remove the program with `./uninstall.sh`.
 If you do uninstall, make sure to remove the line you added to your `.bash_profile`.
